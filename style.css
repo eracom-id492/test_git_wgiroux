@@ -1,0 +1,63 @@
+/* Layout */
+
+.first-salade{
+width:50%;
+}
+
+.first-tomate{
+width:25%;
+}
+
+.first-oignon{
+width:25%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+	background: beige;
+	border: 3px dotted orange;
+	margin-bottom: 2em;
+	height: 100px;
+	width: 650px;
+}
+section > * {
+	width: 500px;
+}
+
+/* Decoration */
+* {box-sizing: border-box}
+body {
+	margin: 20px;
+	background: #fff;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.2em;
+}
+div {
+	padding: 10px;
+	color: #fff;
+}
+div:first-of-type {
+	background: purple;
+}
+div:nth-of-type(2) {
+	background: hotpink;
+}
+div:nth-of-type(3) {
+	background: pink;
+}
+div:nth-of-type(4) {
+	background: hotpink;
+}
+div:nth-of-type(5) {
+	background: slategray;
+}
+
+nav a {
+  display: block;
+  padding: .7em;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  white-space: nowrap;
+}
