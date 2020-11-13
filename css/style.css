@@ -1,5 +1,17 @@
 /* Layout */
 
+.first-salade{
+width:50%;
+}
+
+.first-tomate{
+width:25%;
+}
+
+.first-oignon{
+width:25%;
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -26,13 +38,13 @@ div {
 	color: #fff;
 }
 div:first-of-type {
-	background: dodgerblue;
+	background: purple;
 }
 div:nth-of-type(2) {
-	background: orange;
+	background: hotpink;
 }
 div:nth-of-type(3) {
-	background: olivedrab;
+	background: pink;
 }
 div:nth-of-type(4) {
 	background: hotpink;
